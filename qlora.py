@@ -442,16 +442,17 @@ def extract_unnatural_instructions_data(examples, extract_reformulations=False):
 
 PROMPT_DICT = {
     "prompt_input": (
-        "Below is an instruction that describes a task, paired with an input that provides further context. "
-        "Write a response that appropriately completes the request.\n\n"
-        "### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response: "
+        "Di seguito sono riportate delle istruzioni che descrivono un'attività, abbinate a un input che fornisce ulteriore contesto."
+        "Scrivi una risposta che completa la richiesta in maniera appropriata.\n\n"
+        "### Istruzioni:\n{instruction}\n\n### Input:\n{input}\n\n### Risposta: "
     ),
     "prompt_no_input": (
-        "Below is an instruction that describes a task. "
-        "Write a response that appropriately completes the request.\n\n"
-        "### Instruction:\n{instruction}\n\n### Response: "
+        "Di seguito sono riportate delle istruzioni che descrivono un'attività "
+        "Scrivi una risposta che completa la richiesta in maniera appropriata.\n\n"
+        "### Istruzioni:\n{instruction}\n\n### Risposta: "
     ),
 }
+
 
 def extract_alpaca_dataset(example):
     if example.get("input", "") != "":
