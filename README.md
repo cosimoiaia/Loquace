@@ -7,6 +7,10 @@ The QLoRa (https://github.com/artidoro/qlora) method of fine-tuning significantl
 
 You can find the big Loquace family on HuggingFace:
 
+### LATEST MODEL!!!!
+https://huggingface.co/cosimoiaia/Loquace-7B-Mistral -  Based on Mistral-7B-Instruct
+
+# OLD MODELS:
 https://huggingface.co/cosimoiaia/Loquace-70m   -   Based on pythia-70m
 
 https://huggingface.co/cosimoiaia/Loquace-410m  -   Based on pythia-410m
